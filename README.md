@@ -40,10 +40,10 @@ compile 'com.github.lyman86:CusFlowlayout:v1.0.0'
 ## 第二步  在activity里调用该代码即可  baseCusFlowLayout.addFlowTag(getData());
 ## 第三步  获取选中的List<String>列表  List<String>list = baseCusFlowLayout.getCurrentList();
 ### 注：若List列表放的不是String类型，而是自己定义的bean类则需要继承BaseCusFlowLayout
-<br>
-```Java
-public class MyCusFlowLayout extends BaseCusFlowLayout {
-    
+<br> 
+    <br> 
+public class  extends BaseCusFlowLayout {
+    <br> 
     private List<InfoBean>select;
     private List<InfoBean>list;
 
@@ -82,8 +82,6 @@ public class MyCusFlowLayout extends BaseCusFlowLayout {
         addFlowTag(strs);
     }
 }
-//Java
-```
-
+<br> 
         
 
