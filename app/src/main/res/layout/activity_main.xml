@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lyman="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ly.cusflowlayout.BaseCusFlowLayout
+        android:id="@+id/cusFlowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_purple"
+        lyman:flItemDefBg="@drawable/lyman_fl_def_item_bg2"
+        lyman:flItemDefTxtColor="@color/colorPrimaryDark"
+        lyman:flItemHeight="30dp"
+        lyman:flItemMultiSelect="true"
+        lyman:flItemSelectBg="@drawable/lyman_fl_select_item_bg2"
+        lyman:flItemSelectTxtColor="@color/colorAccent"
+        lyman:flItemTxtMarginLR="6dp"
+        lyman:flItemTxtMarginTB="8dp"
+        lyman:flItemTxtPaddingLR="10dp"
+        lyman:flItemTxtSize="14" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sure"
+        android:text="确认选择"
+        />
+
+
+
+
+</LinearLayout>

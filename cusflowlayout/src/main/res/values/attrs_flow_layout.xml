@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--每个item的高度-->
+    <attr name="flItemHeight" format="dimension|reference" />
+    <!--每个item的默认的背景（也就是未选中的颜色）-->
+    <attr name="flItemDefBg" format="integer|reference" />
+    <!--每个item的选中的背景-->
+    <attr name="flItemSelectBg" format="integer|reference" />
+    <!--每个item的默认的字体颜色（也就是字体未选中的颜色）-->
+    <attr name="flItemDefTxtColor" format="color|reference" />
+    <!--每个item的字体选中的颜色-->
+    <attr name="flItemSelectTxtColor" format="color|reference" />
+    <!--每个item的字体的大小-->
+    <attr name="flItemTxtSize" format="integer|reference" />
+    <!--每个item的字体的左右间距-->
+    <attr name="flItemTxtPaddingLR" format="dimension|reference" />
+    <!--每个item标签的左右间距-->
+    <attr name="flItemTxtMarginLR" format="dimension|reference" />
+    <!--每个item标签的上下间距-->
+    <attr name="flItemTxtMarginTB" format="dimension|reference" />
+    <!--是否多选（默认为单选）-->
+    <attr name="flItemMultiSelect" format="boolean|reference" />
+
+    <declare-styleable name="BaseCusFlowLayout">
+        <!--每个item的高度-->
+        <attr name="flItemHeight" />
+        <!--每个item的默认的背景（也就是未选中的颜色）-->
+        <attr name="flItemDefBg" />
+        <!--每个item的选中的背景-->
+        <attr name="flItemSelectBg" />
+        <!--每个item的默认的字体颜色（也就是字体未选中的颜色）-->
+        <attr name="flItemDefTxtColor" />
+        <!--每个item的字体选中的颜色-->
+        <attr name="flItemSelectTxtColor" />
+        <!--每个item的字体的大小-->
+        <attr name="flItemTxtSize" />
+        <!--每个item的字体的左右间距-->
+        <attr name="flItemTxtPaddingLR" />
+        <!--每个item标签的左右间距-->
+        <attr name="flItemTxtMarginLR" />
+        <!--每个item标签的上下间距-->
+        <attr name="flItemTxtMarginTB" />
+        <!--是否多选（默认为单选）-->
+        <attr name="flItemMultiSelect" />
+    </declare-styleable>
+</resources>
