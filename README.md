@@ -36,7 +36,6 @@ compile 'com.github.lyman86:CusFlowlayout:v1.0.0'
 # 简单用法
 <br>
 先在对应的xml文件里引入基本类
-<br>
 <ly.cusflowlayout.BaseCusFlowLayout
         android:id="@+id/cusFlowLayout"
         <br>
