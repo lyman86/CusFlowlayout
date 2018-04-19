@@ -37,7 +37,7 @@ compile 'com.github.lyman86:CusFlowlayout:v1.0.0'
 <br>
 第一步
 <br>
-'''xml
+```xml
    <ly.cusflowlayout.BaseCusFlowLayout
         android:id="@+id/cusFlowLayout"
         android:layout_width="match_parent"
@@ -53,5 +53,5 @@ compile 'com.github.lyman86:CusFlowlayout:v1.0.0'
         lyman:flItemTxtMarginTB="8dp"
         lyman:flItemTxtPaddingLR="10dp"
         lyman:flItemTxtSize="14" />
-'''        
+```        
 
