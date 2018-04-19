@@ -35,23 +35,8 @@ compile 'com.github.lyman86:CusFlowlayout:v1.0.0'
 
 # 简单用法
 <br>
-第一步
+## 第一步  在xml引入基类 ly.cusflowlayout.BaseCusFlowLayout  加上需要的属性
 <br>
-`<
-   <ly.cusflowlayout.BaseCusFlowLayout
-        android:id="@+id/cusFlowLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:color/holo_purple"
-        lyman:flItemDefBg="@drawable/lyman_fl_def_item_bg2"
-        lyman:flItemDefTxtColor="@color/colorPrimaryDark"
-        lyman:flItemHeight="30dp"
-        lyman:flItemMultiSelect="true"
-        lyman:flItemSelectBg="@drawable/lyman_fl_select_item_bg2"
-        lyman:flItemSelectTxtColor="@color/colorAccent"
-        lyman:flItemTxtMarginLR="6dp"
-        lyman:flItemTxtMarginTB="8dp"
-        lyman:flItemTxtPaddingLR="10dp"
-        lyman:flItemTxtSize="14" />
->`        
+## 第二步  在activity里调用该代码即可  baseCusFlowLayout.addFlowTag(getData());
+        
 
