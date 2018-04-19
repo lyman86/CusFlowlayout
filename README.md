@@ -37,35 +37,21 @@ compile 'com.github.lyman86:CusFlowlayout:v1.0.0'
 <br>
 第一步
 <br>
-   '<'ly.cusflowlayout.BaseCusFlowLayout
-        <br>
+‘’‘xml
+   <ly.cusflowlayout.BaseCusFlowLayout
         android:id="@+id/cusFlowLayout"
-        <br>
         android:layout_width="match_parent"
-        <br>
         android:layout_height="wrap_content"
-        <br>
         android:background="@android:color/holo_purple"
-        <br>
-        <br>
         lyman:flItemDefBg="@drawable/lyman_fl_def_item_bg2"
-        <br>
         lyman:flItemDefTxtColor="@color/colorPrimaryDark"
-        <br>
         lyman:flItemHeight="30dp"
-        <br>
         lyman:flItemMultiSelect="true"
-        <br>
         lyman:flItemSelectBg="@drawable/lyman_fl_select_item_bg2"
-        <br>
         lyman:flItemSelectTxtColor="@color/colorAccent"
-        <br>
         lyman:flItemTxtMarginLR="6dp"
-        <br>
         lyman:flItemTxtMarginTB="8dp"
-        <br>
         lyman:flItemTxtPaddingLR="10dp"
-        <br>
         lyman:flItemTxtSize="14" />
-        <br>
+'''        
 
