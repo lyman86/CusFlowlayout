@@ -30,4 +30,7 @@ compile 'com.github.lyman86:CusFlowlayout:v1.0.0'
 <br>
 10.是否多选（默认为单选）：flItemMultiSelect
 <br>
+
+![image](https://github.com/lyman86/CustomScaleView/blob/master/app/screenshots/device-2018-04-07-233012.png)
+
 ![image](https://github.com/lyman86/CusFlowlayout/blob/master/app/screenshots/Screenshot_1524117570.png)
