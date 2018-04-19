@@ -35,8 +35,9 @@ compile 'com.github.lyman86:CusFlowlayout:v1.0.0'
 
 # 简单用法
 <br>
-先在对应的xml文件里引入基本类
-<ly.cusflowlayout.BaseCusFlowLayout
+第一步
+<br>
+      ly.cusflowlayout.BaseCusFlowLayout
         android:id="@+id/cusFlowLayout"
         <br>
         android:layout_width="match_parent"
@@ -66,3 +67,4 @@ compile 'com.github.lyman86:CusFlowlayout:v1.0.0'
         <br>
         lyman:flItemTxtSize="14" />
         <br>
+
