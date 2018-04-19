@@ -8,7 +8,7 @@ maven { url 'https://jitpack.io' }
 <br>
 compile 'com.github.lyman86:CusFlowlayout:v1.0.0'
 <br>
-# 自定义标签有如下属性
+# 属性自定义标签有如下
 <br>
 1.每个标签的高度：flItemHeight
 <br>
@@ -32,3 +32,24 @@ compile 'com.github.lyman86:CusFlowlayout:v1.0.0'
 <br>
 
 ![image](https://github.com/lyman86/CusFlowlayout/blob/master/app/screenshots/Screenshot_1524117570.png)
+
+# 简单用法
+<br>
+先在对应的xml文件里引入基本类
+<br>
+<ly.cusflowlayout.BaseCusFlowLayout
+        android:id="@+id/cusFlowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_purple"
+        
+        lyman:flItemDefBg="@drawable/lyman_fl_def_item_bg2"
+        lyman:flItemDefTxtColor="@color/colorPrimaryDark"
+        lyman:flItemHeight="30dp"
+        lyman:flItemMultiSelect="true"
+        lyman:flItemSelectBg="@drawable/lyman_fl_select_item_bg2"
+        lyman:flItemSelectTxtColor="@color/colorAccent"
+        lyman:flItemTxtMarginLR="6dp"
+        lyman:flItemTxtMarginTB="8dp"
+        lyman:flItemTxtPaddingLR="10dp"
+        lyman:flItemTxtSize="14" />
