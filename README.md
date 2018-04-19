@@ -38,7 +38,6 @@ compile 'com.github.lyman86:CusFlowlayout:v1.0.0'
 先在对应的xml文件里引入基本类
 <br>
 <ly.cusflowlayout.BaseCusFlowLayout
-<br>
         android:id="@+id/cusFlowLayout"
         <br>
         android:layout_width="match_parent"
