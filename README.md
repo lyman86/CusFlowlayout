@@ -37,6 +37,7 @@ compile 'com.github.lyman86:CusFlowlayout:v1.0.0'
 <br>
 ## 第一步  在xml引入基类 ly.cusflowlayout.BaseCusFlowLayout  加上需要的属性
 <br>
+
     <ly.cusflowlayout.BaseCusFlowLayout
         android:id="@+id/cusFlowLayout"
         android:layout_width="match_parent"
