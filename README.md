@@ -43,7 +43,8 @@ compile 'com.github.lyman86:CusFlowlayout:v1.0.0'
 <br> 
     <br> 
 public class  extends BaseCusFlowLayout {
-    <br> 
+   <br> 
+    
     private List<InfoBean>select;
     private List<InfoBean>list;
 
